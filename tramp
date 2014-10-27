@@ -1,0 +1,55 @@
+;; -*- emacs-lisp -*- <14/05/30 09:58:35 d:/zk/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["plink" "pcadm" "168.7.2.71" nil nil]
+  ("uname" "AIX 1")
+  ("test" "test")
+  ("remote-path" nil)
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("file-exists" "test -e")
+  ("readlink" nil)
+  ("perl" nil)
+  ("stat" nil))
+ (["plink" "pcadm" "168.7.2.73" nil nil]
+  ("uname" "AIX 1")
+  ("test" "test")
+  ("remote-path" nil)
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("file-exists" "test -e")
+  ("readlink" nil)
+  ("perl" nil)
+  ("stat" nil))
+ (["ftp" "pcadm" "168.7.2.71" nil nil]
+  ("started" t))
+ (["ftp" "pcadm" "cib02071" nil nil]
+  ("started" t))
+ (["pscp" "pcadm" "cib02071" nil nil]
+  ("uname" "AIX 1")
+  ("test" "test")
+  ("remote-path" nil)
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/ETL/pc/pcadm")
+  ("perl" nil))
+ (["plink" "pcadm" "cib02071" nil nil]
+  ("uname" "AIX 1")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin"))
+  ("remote-shell" "/bin/sh")
+  ("locale" "LC_ALL=C")
+  ("~" "/ETL/pc/pcadm")
+  ("file-exists" "test -e")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" nil)
+  ("stat" nil)
+  ("id" "/usr/bin/id")
+  ("gid-integer" 320)
+  ("gid-string" "pcadmgp"))
+ (["ssh" "pcadm" "cib02071" nil nil]
+  nil))
